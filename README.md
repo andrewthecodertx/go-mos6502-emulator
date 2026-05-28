@@ -392,35 +392,10 @@ real-time emulation of complete systems. Performance characteristics:
 - Minimal allocations in the main execution loop
 - Bus interface allows for optimized memory implementations
 
-## Contributing
-
-Contributions are welcome! Areas for improvement:
-
-- [ ] Illegal opcode support for MOS6502
-- [ ] Decimal mode flag accuracy improvements
-- [ ] Cycle-level bus access simulation
-- [ ] More comprehensive test suites
-- [ ] Performance benchmarks
-- [ ] Example projects (simple computer, NES emulator, etc.)
-
 ## License
 
-This project is open source. See LICENSE file for details.
+MIT, see [LICENSE](LICENSE).
 
-## Acknowledgments
+## Contributing
 
-This emulator was developed with assistance from Claude Code (Anthropic), which
-generated:
-
-- Code comments and documentation
-- This README file
-- Architecture and API design suggestions
-
-Special thanks to the 6502 preservation community for maintaining excellent
-documentation and reference materials.
-
----
-
-**Note**: This is an educational emulator designed for learning and
-experimentation. It aims for high accuracy but may not be suitable for all use
-cases requiring perfect hardware fidelity at the transistor level.
+PRs welcome. Please open an issue first for major changes.
